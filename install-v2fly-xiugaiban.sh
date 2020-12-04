@@ -268,7 +268,7 @@ get_version() {
 }
 
 download_v2ray() {
-  # DOWNLOAD_LINK="https://github.com/man2018/v2-fly/releases/download/$RELEASE_VERSION/v2ray-linux-$MACHINE.zip"
+  DOWNLOAD_LINK="https://github.com/man2018/v2-fly/releases/download/$RELEASE_VERSION/v2ray-linux-$MACHINE.zip"
                    #https://github.com/man2018/v2-fly/releases/download/v4.32.1/v2ray-freebsd-32.zip.dgst
   echo "Downloading V2Ray archive: $DOWNLOAD_LINK"
   if ! curl -x "${PROXY}" -R -H 'Cache-Control: no-cache' -o "$ZIP_FILE" "$DOWNLOAD_LINK"; then
