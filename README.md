@@ -5,12 +5,12 @@
 bash <(curl -s -L https://raw.githubusercontent.com/man2018/v2-fly/main/v2fly-core_download.sh)
 ```
 
-**此脚本可以安装v2ray v2fly版本大于（包含）v4.36.1之后的版本，跟官方一模一样，做个备份用**
+**此脚本可以安装v2ray v2fly版本大于（包含）v4.36.1之后的版本，<code>跟官方一模一样，做个备份用</code>**
 ```
 bash <(curl -L https://raw.githubusercontent.com/man2018/v2-fly/main/v2fly-install.sh)
 ```
 
-**卸载v2ray v2fly版本**
+**卸载v2ray v2fly版本 <code>与官方一模一样</code>** 
 ```
 bash <(curl -L https://raw.githubusercontent.com/man2018/v2-fly/main/v2fly-install.sh) --remove
 ```
