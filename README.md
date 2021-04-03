@@ -1,6 +1,6 @@
 # 做个v2fly-core的备份，感谢作者
 
-**下载v2fly-core***
+**下载v2fly-core 此为v2fly版本的core***
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/man2018/v2-fly/main/v2fly-core_download.sh)
 ```
